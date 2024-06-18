@@ -1,26 +1,37 @@
-README file of the things I(Nick) have worked on for  Not Jetpack Joyride
+README file of the things I(Nick) have worked on for Not Jetpack Joyride
 (other small details such as value adjustment & iterations of bug fixes were not mentioned)
 
 
- - On this project I did the particles for the Coin collection, and the code and effects for both the zappers & lasers
 
 
+![Jetpacklaser zapper](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/d71f1adb-e7cb-493d-8afb-487892f6623f)
+----
 
-*A Rundown of what I did*
+Unity version used:
+https://unity.com/releases/editor/whats-new/2022.3.23#installs
 
-Coin Collection particle effect:
+Launch the scene in Assets > Scenes > MainScenes > 00_Menu
+
+![image](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/ac5d52d2-eb6d-479a-a2b1-85175fcd8326)
+
+----
+
+
+# A Rundown of what I did
+
+**Coin Collection particle effect:**
+
+![CoinParticle](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/7298ea32-f5c2-426a-9c34-97934c0993da)
+
  - Particle for when a coin is collected
  - Used Unity particle system 
  - Image was obtained online then had its background removed
 
+----
 
-Zappers & Rotating Zappers:
+**Zappers & Rotating Zappers:**
 
-![image](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/74a7c02a-b0ae-474b-89ad-eb373bd4fed2)   ![image](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/6c7a4385-d597-418d-9e72-afffe794278e)
-
-
-
-
+![Zapper](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/b4de254e-644b-40a5-a319-fe2a98585df7) ![RotatingZapper](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/62696888-6940-486c-a058-ef7c378f54bf)
 
 
   -Code-
@@ -44,10 +55,12 @@ scalablity to be able to be used in other objects that shoot lines forward(ex: l
   -Effects-
  - End caps of the zappers(both ends of zapper) obtained online, had their background removed, and rotated
 
-![Zapper](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/b4de254e-644b-40a5-a319-fe2a98585df7) ![RotatingZapper](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/62696888-6940-486c-a058-ef7c378f54bf)
+----
+
+**Lasers:**
+![Lasers](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/dc392a59-7693-43b6-a4f7-94d98b2579ff)
 
 
-Lasers:
   -Code-
 
  - Recieves MovementVarience(how far the lasers move), Windup(time before laser fire), 
@@ -79,8 +92,9 @@ ActivationLength, Ease(how fast the lasers ease into frame), WindupWidth(the tin
   -Effects-
  - End caps of the lasers(both ends of laser) obtained online, had their background removed
 
+----
 
-FireLineRenderer:
+**FireLineRenderer:**
 
  - Recieves startpoint, endpoint, and the line renderer component
  - Draws the 2d ray from start to end
@@ -95,11 +109,17 @@ or yellow (with falloff of white) for zappers(yellow changed to orange if its a 
 Texture is being multiplied by time and passes through "Tiling and Offset", applied to Sample Texture 2D 
 and applied to fragments basecolors along with its alpha
 
+----
 
-Bug Fixes:
+**Bug Fixes:**
  - Bug fixes for the lasers & zappers
 
  - Rocket trail size reduced
 
  - Background UI no longer interactable when theres pop-ups(disable background UI Functionality, when pop-up active)
+
+
+
+
+
 
