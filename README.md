@@ -1,20 +1,38 @@
-README file of the things I(Nick) have worked on for Not Jetpack Joyride
-(other small details such as value adjustment & iterations of bug fixes were not mentioned)
+README file of the things I(Nick) have worked on for the Not Jetpack Joyride game
 
+**Other contributors:** 
 
+https://github.com/SleepingDragon0
 
+https://github.com/LeahTaurisano
+
+https://github.com/twdaviss
+
+https://github.com/CultyMarble
+
+https://github.com/PhiBeo
+
+https://github.com/MiguelAyala25
+
+---
 
 ![Jetpacklaser zapper](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/d71f1adb-e7cb-493d-8afb-487892f6623f)
-----
 
-Unity version used:
+
+# How to Play
+
+```
+https://github.com/NicholasOkovic/NotJetpackJoyride.git
+```
+
 https://unity.com/releases/editor/whats-new/2022.3.23#installs
 
 Launch the scene in Assets > Scenes > MainScenes > 00_Menu
 
+
 ![image](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/ac5d52d2-eb6d-479a-a2b1-85175fcd8326)
 
-----
+
 
 
 # A Rundown of what I did
@@ -27,9 +45,8 @@ Launch the scene in Assets > Scenes > MainScenes > 00_Menu
  - Used Unity particle system 
  - Image was obtained online then had its background removed
 
-----
 
-**Zappers & Rotating Zappers:**
+## Zappers & Rotating Zappers:
 
 ![Zapper](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/b4de254e-644b-40a5-a319-fe2a98585df7) ![RotatingZapper](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/62696888-6940-486c-a058-ef7c378f54bf)
 
@@ -55,9 +72,9 @@ scalablity to be able to be used in other objects that shoot lines forward(ex: l
   -Effects-
  - End caps of the zappers(both ends of zapper) obtained online, had their background removed, and rotated
 
-----
 
-**Lasers:**
+
+## Lasers:
 ![Lasers](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/dc392a59-7693-43b6-a4f7-94d98b2579ff)
 
 
@@ -92,9 +109,9 @@ ActivationLength, Ease(how fast the lasers ease into frame), WindupWidth(the tin
   -Effects-
  - End caps of the lasers(both ends of laser) obtained online, had their background removed
 
-----
 
-**FireLineRenderer:**
+
+## FireLineRenderer:
 
  - Recieves startpoint, endpoint, and the line renderer component
  - Draws the 2d ray from start to end
@@ -109,9 +126,9 @@ or yellow (with falloff of white) for zappers(yellow changed to orange if its a 
 Texture is being multiplied by time and passes through "Tiling and Offset", applied to Sample Texture 2D 
 and applied to fragments basecolors along with its alpha
 
-----
 
-**Bug Fixes:**
+
+## Bug Fixes:
  - Bug fixes for the lasers & zappers
 
  - Rocket trail size reduced
