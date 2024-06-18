@@ -1,18 +1,21 @@
 README file of the things I(Nick) have worked on for the Not Jetpack Joyride game
 
+---
+
 **Other contributors:** 
 
-https://github.com/SleepingDragon0
+![image](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/c822852d-919a-49d6-b377-ee0781258936) https://github.com/SleepingDragon0
 
-https://github.com/LeahTaurisano
 
-https://github.com/twdaviss
+![image](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/742280df-39a0-47c9-8665-f5733e589e7f) https://github.com/LeahTaurisano 
 
-https://github.com/CultyMarble
+![image](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/0ac794c1-d76e-4cc7-be9f-8a6e3dc693dc) https://github.com/twdaviss 
 
-https://github.com/PhiBeo
+![image](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/7c19a2af-05cf-49fa-9c1e-d1d088b4a17c) https://github.com/CultyMarble
 
-https://github.com/MiguelAyala25
+![image](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/859b874c-3a0c-44f5-9062-506bad1ea22e) https://github.com/PhiBeo
+
+![image](https://github.com/NicholasOkovic/NotJetpackJoyride/assets/139954443/3ddd6336-0f50-485b-8698-ac1541474f4a) https://github.com/MiguelAyala25
 
 ---
 
